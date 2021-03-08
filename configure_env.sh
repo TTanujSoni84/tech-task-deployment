@@ -20,10 +20,10 @@ sed -i 's/PUBLIC_IP/'$PUBIP'/g' ansible/hosts
 ## Pem file path replaced in hosts file
 sed -i 's|AWS_PRIVATE_KEY_PATH|'$PEM_FILE_PATH'|g' ansible/hosts
 
-echo "Instance Public IP is '$PUBIP' "
-
 sed -i 's|PROJECT_DIR|'$PROJECT_PATH'|g' ansible/variables.yml
 
 sed -i 's/ADMIN_PASSWORD/'$ADMIN_PASS'/g' ansible/variables.yml
 
 sed -i 's/ADMIN_PASSWORD/'$ADMIN_PASS'/g' ansible/setup-jenkins-cli.sh
+
+echo "Instance Public IP is '$PUBIP' and configuration is updated.."

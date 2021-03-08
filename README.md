@@ -66,9 +66,15 @@ To enable the CI/CD process, we need to add webhook [like this http://EC2-PUBLIC
 Once the script run successfully, you can replace public IP in following API and test it:
 
 ```<IP Address>/health-check``` 
+
+
 ```<IP Address>/api/v1/fetch_jokes```
+
 
 Currently, the App is running on following server:
 
-```<IP Address>/health-check``` 
-```<IP Address>/api/v1/fetch_jokes```
+
+```http://23.23.230.125/health-check``` 
+
+
+```http://23.23.230.125/api/v1/fetch_jokes```
