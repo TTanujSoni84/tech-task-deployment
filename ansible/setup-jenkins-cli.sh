@@ -2,7 +2,7 @@
 
 
 export JENKINS_USER_ID=admin
-export JENKINS_API_TOKEN=admin123
+export JENKINS_API_TOKEN=ADMIN_PASSWORD
 
 sleep 30
 
